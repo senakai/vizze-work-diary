@@ -29,13 +29,18 @@
     color: #2d627b !important;
     text-decoration: underline;
     
-
 }
 
 
 .f-passw:hover {
 
     color: #4d626b;
+
+}
+
+.input {
+
+    opacity: 0;
 
 }
 
