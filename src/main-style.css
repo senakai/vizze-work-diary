@@ -1,6 +1,6 @@
 .home-title {
 
-    font-size: 25px !important;
+    font-size: 40px !important;
 
 }
 
@@ -28,6 +28,7 @@
 
     color: #2d627b !important;
     text-decoration: underline;
+    
 
 }
 
@@ -68,6 +69,10 @@ button.butao:hover {
     margin-top: 20px !important ;
 }
 
+.mt25 { 
+    margin-top: 20px !important ;
+}
+
 .mt30 { 
     margin-top: 30px !important ;
 }
@@ -100,19 +105,14 @@ button.butao:hover {
     margin-top: 100px !important ;
 }
 
+.diary-button {
 
-input:not([type]):focus:not([readonly]) + label,
-input[type=text]:not(.browser-default):focus:not([readonly]) + label,
-input[type=password]:not(.browser-default):focus:not([readonly]) + label,
-input[type=email]:not(.browser-default):focus:not([readonly]) + label,
-input[type=url]:not(.browser-default):focus:not([readonly]) + label,
-input[type=time]:not(.browser-default):focus:not([readonly]) + label,
-input[type=date]:not(.browser-default):focus:not([readonly]) + label,
-input[type=datetime]:not(.browser-default):focus:not([readonly]) + label,
-input[type=datetime-local]:not(.browser-default):focus:not([readonly]) + label,
-input[type=tel]:not(.browser-default):focus:not([readonly]) + label,
-input[type=number]:not(.browser-default):focus:not([readonly]) + label,
-input[type=search]:not(.browser-default):focus:not([readonly]) + label,
-textarea.materialize-textarea:focus:not([readonly]) + label {
-  color: #93afad;
+    padding: 0.5% 1% !important;
+    margin: 10% 25%;
+    height: 50px !important;
+    width: 50% !important;
+    background-color:#223843;
+    color: white;
+    border-radius: 10px !important;
 }
+
