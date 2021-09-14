@@ -1,0 +1,26 @@
+{
+  "name": "loginform",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/senakai/vizze-work-diary.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/senakai/vizze-work-diary/issues"
+  },
+  "homepage": "https://github.com/senakai/vizze-work-diary#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express.js": "^1.0.0",
+    "knex": "^0.95.11",
+    "nodemon": "^2.0.12",
+    "pg": "^8.7.1"
+  }
+}
