@@ -21,6 +21,8 @@
 .f-passw {
 
     color: #354c57 !important;
+    white-space: nowrap;
+    overflow: hidden;
 
 }
 
